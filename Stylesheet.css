@@ -15,7 +15,7 @@ html, body{
 	
 }
 .banner{
-  background-image: url("beem-games-online-racing.jpg");
+  background-image: url("file:///C:/Users/user/Desktop/beem/beem-images/beem-games-online-racing.jpg");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -30,10 +30,12 @@ html, body{
   opacity:0.9;
 }
 .banner h2 {
-  font-size: 2.15rem;
+  font-size: 2.0rem;
   font-family: Poppins;
   font-weight: 100;
   color: #fff;
+  letter-spacing: -1px;
+  word-wrap: break-word;
 }
 
 .banner {
@@ -41,11 +43,17 @@ html, body{
   font-family: Poppins;
   font-weight: 70;
   color: #fff;
+  text-overflow: ellipsis;
+  padding-top: 10px;
+  padding-bottom: -13px;
+
   
 }
 #bannertext{
-	font-size: 30px;
+	font-size: 30%;
 	color: #fff;
+	letter-spacing: 0.03vw;
+	margin-top: -14px;
 }
 .platforms{
 	margin-top: auto;
@@ -58,6 +66,7 @@ html, body{
   outline-offset: 0px;
   text-shadow: none;
   transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  color: #11be4f;
 } 
 #firstbutton:hover {
   border: 1px solid;
@@ -92,37 +101,25 @@ html, body{
 }
 #grid-1{
 	width: 100%;
-	height: 200px;
+	height: 500px;
 	background-color: #e21546;
 }
 #grid-2{
 	width: 100%;
 	height: 200px;
-	background-color: #e21546;
+	background-color: #d9d9ec;
 	margin-right: 3%;
 	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-bottom: 0%;
 	
 	
-}
-#grid-3{
-	width: 100%;
-	height: 200px;
-	background-color: #e21546;
-	margin-left: 8%;
-	float: right;
 }
 .footer{
-	width: 99%;
-	height: 300px;
-	margin: auto;
-	background-color: #e21546;
-	border: 1px;
-	border-bottom: none;
-	border-color: #fff;
-	border-style: solid; 
-	border-radius: 6px;
-	margin-bottom: 0%;
+	width: 100%;
+	height: 200px;
+	margin-top: 3%;
+	background-color: #3f50b5;
+
 	
 
 }
